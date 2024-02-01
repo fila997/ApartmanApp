@@ -2,8 +2,8 @@ version: "3.7"
 services:
   resto:
     build: .
-    container_name: restoran
-    image: restoran:latest
+    container_name: apartman
+    image: apartman:latest
     ports:
       - 8080:8080
     networks:
